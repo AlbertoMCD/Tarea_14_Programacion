@@ -77,7 +77,7 @@ class General:
 
 
 raiz = Tk()
-raiz.title("Filtro Elementos")
+raiz.title("Filtro de los Elementos")
 raiz.geometry('150x330')
 #raiz.resizable(1,1)
 raiz.config(bg="#49A")
