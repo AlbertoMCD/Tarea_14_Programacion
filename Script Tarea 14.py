@@ -11,7 +11,7 @@ class General:
 	def __init__(self, raiz):
 		#Crear combobox elemento
 		self.elemento = StringVar()
-		self.label_elemento = Label(raiz, text = "Tipo elemento")
+		self.label_elemento = Label(raiz, text = "Tipo elementos")
 		self.label_elemento.grid(column=0, row=0)
 		self.elemento = Combobox(raiz, values=('LOS', 'LOH', 'LR', 'LP', 'PC', 'TS'), width=10)
 		self.elemento.grid(column=0, row=1)
